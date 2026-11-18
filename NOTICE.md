@@ -37,6 +37,12 @@ Lucide is used under the ISC License:
 > OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 > PERFORMANCE OF THIS SOFTWARE.
 
+The Model Context Protocol TypeScript SDK 1.32.2
+(https://github.com/modelcontextprotocol/typescript-sdk, © 2024 Anthropic, PBC)
+connects the desktop app to Higgsfield's MCP server. It is bundled into the
+app's main process and used under the MIT License; the license text is in
+`apps/desktop/LICENSES/MCP-SDK-LICENSE.txt`.
+
 FFmpeg 6.1.1 and its `ffprobe` (ffmpeg-static `b6.1.1`) are bundled as separate
 GPL programs, one pair for export and one `ffprobe` in
 `apps/desktop/resources/hyperframes/bin` for animation renders. Their license,
