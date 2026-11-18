@@ -41,7 +41,17 @@ The Model Context Protocol TypeScript SDK 1.32.2
 (https://github.com/modelcontextprotocol/typescript-sdk, © 2024 Anthropic, PBC)
 connects the desktop app to Higgsfield's MCP server. It is bundled into the
 app's main process and used under the MIT License; the license text is in
-`apps/desktop/LICENSES/MCP-SDK-LICENSE.txt`.
+`apps/desktop/LICENSES/MCP-SDK-LICENSE.txt`. The libraries the SDK brings into
+that bundle (ajv, ajv-formats, fast-deep-equal, json-schema-traverse, fast-uri,
+content-type, zod-to-json-schema, pkce-challenge and eventsource-parser; MIT, ISC
+or BSD-3-Clause) have their license texts in
+`apps/desktop/LICENSES/MCP-SDK-DEPENDENCIES-LICENSES.txt`.
+
+Three small libraries are bundled into the desktop app's main process and used
+under their own licenses, with the texts in `apps/desktop/LICENSES/`:
+zod 3.25.76 (© 2025 Colin McDonnell, MIT, `ZOD-LICENSE.txt`), yaml 2.9.0
+(© Eemeli Aro, ISC, `YAML-LICENSE.txt`) and fflate 0.8.2 (© 2023 Arjun Barrett,
+MIT, `FFLATE-LICENSE.txt`).
 
 FFmpeg 6.1.1 and its `ffprobe` (ffmpeg-static `b6.1.1`) are bundled as separate
 GPL programs, one pair for export and one `ffprobe` in
